@@ -13,6 +13,7 @@
     "npm-reset": "rm -rf node_modules && npm cache verify && npm i",
     "git-reset": "git reset HEAD --hard && git clean -fd && git fetch --all --tags --prune && git pull",
     "start": "webpack serve",
+    "watch": "webpack --watch",
     "build": "webpack"
   },
   "keywords": [
